@@ -28,7 +28,9 @@ export default function ContactSection() {
         {/* Email with Hover Underline Arrow Effect */}
         <FadeIn delay={0.15} y={20} duration={0.7} className="w-full">
           <a
-            href="mailto:roshithalashan@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&to=roshithalashan@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-2 sm:gap-4 font-bold text-xl sm:text-3xl md:text-5xl lg:text-6xl text-[#D7E2EA] hover:text-white transition-colors duration-300 uppercase tracking-wide"
           >
             <span>roshithalashan@gmail.com</span>
