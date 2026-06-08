@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import { useInView } from 'framer-motion';
 import { Calendar, Layers, Smile } from 'lucide-react';
 import FadeIn from '../components/FadeIn';
-import AnimatedText from '../components/AnimatedText';
 import ContactButton from '../components/ContactButton';
 
 interface CountUpProps {
@@ -127,13 +126,14 @@ export default function AboutSection() {
           </h2>
         </FadeIn>
 
-        {/* Scroll Reveal Text */}
+        {/* About Text */}
         <div className="mb-12 sm:mb-16 flex justify-center">
-          <AnimatedText
-            text="Hey, I'm Roshitha — a video editor with 5+ years of experience turning ideas into captivating visual stories. I specialize in creating high-retention content through cinematic editing, smooth transitions, professional color grading, and impactful sound design."
+          <p
             className="text-[#D7E2EA] font-medium leading-relaxed max-w-[560px] text-center"
-            style={{ fontSize: 'clamp(1rem, 2vw, 1.35rem)' } as any}
-          />
+            style={{ fontSize: 'clamp(1rem, 2vw, 1.35rem)' }}
+          >
+            Hey, I'm Roshitha — a video editor with 5+ years of experience turning ideas into captivating visual stories. I specialize in creating high-retention content through cinematic editing, smooth transitions, professional color grading, and impactful sound design.
+          </p>
         </div>
 
         {/* Stats Grid */}
