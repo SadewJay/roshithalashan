@@ -188,8 +188,8 @@ export default function PricingSection() {
   const plans: PricingCardProps[] = [
     {
       name: 'Basic Package',
-      price: '$10 – $20',
-      duration: '5–10 min video',
+      price: '$15 – $25',
+      duration: '3–5 min duration',
       features: [
         'Simple clean cuts',
         'Audio balancing',
@@ -205,7 +205,7 @@ export default function PricingSection() {
     {
       name: 'Standard Package',
       price: '$35 – $55',
-      duration: '10–20 min video',
+      duration: '5–10 min duration',
       features: [
         'Smooth cuts + pacing',
         'Color grading',
@@ -221,12 +221,12 @@ export default function PricingSection() {
     {
       name: 'Premium Cinematic',
       price: '$70 – $120+',
-      duration: '20–40 min video',
+      duration: '10–15+ min duration',
       features: [
         'Full cinematic color grade',
         'Sound design (SFX + ambience)',
         'Motion graphics / VFX',
-        '4K export',
+        'Unlimited revisions',
       ],
       buttonLabel: 'Choose Premium',
       popular: false,
