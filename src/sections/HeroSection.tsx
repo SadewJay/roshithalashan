@@ -11,7 +11,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative h-screen w-full flex flex-col justify-between overflow-hidden bg-transparent">
+    <section id="hero" className="relative h-screen w-full flex flex-col justify-between overflow-hidden bg-transparent">
       {/* 1. Navbar */}
       <FadeIn delay={0} y={-20} duration={0.7}>
         <Navbar onLinkClick={scrollToSection} />

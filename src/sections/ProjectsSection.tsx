@@ -78,7 +78,7 @@ function VideoCard({ video, index, totalCards, activeTab }: VideoCardProps) {
                 ? `https://www.youtube.com/embed/${video.id}?rel=0&modestbranding=1&color=white`
                 : `https://player.vimeo.com/video/${video.id}?badge=0&autopause=0&player_id=0&app_id=58479`
             }
-            title={`Project ${video.num}`}
+            title={`Roshitha Lashan Video Portfolio - ${activeTab} project ${video.num}`}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             style={{
