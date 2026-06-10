@@ -9,15 +9,15 @@ interface VideoData {
 }
 
 const LANDSCAPE_VIDEOS: VideoData[] = [
-  { id: 'QUTEKDjeP2w', num: '01', type: 'youtube' },
-  { id: '-b3cnHy5bcw', num: '02', type: 'youtube' },
-  { id: 'TLB8pKQ20Zg', num: '03', type: 'youtube' },
+  { id: '1199982166', num: '01', type: 'vimeo' },
+  { id: '1199982159', num: '02', type: 'vimeo' },
+  { id: '1199982147', num: '03', type: 'vimeo' },
 ];
 
 const PORTRAIT_VIDEOS: VideoData[] = [
   { id: '1199537113', num: '01', type: 'vimeo' },
   { id: '1199537074', num: '02', type: 'vimeo' },
-  { id: '1199537113', num: '03', type: 'vimeo' },
+  { id: '1199537050', num: '03', type: 'vimeo' },
 ];
 
 interface VideoCardProps {

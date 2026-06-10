@@ -7,7 +7,7 @@ export default function ContactSection() {
 
   const handleDiscordClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    navigator.clipboard.writeText('roshjitha');
+    navigator.clipboard.writeText('roshitha');
     setCopiedDiscord(true);
     setTimeout(() => setCopiedDiscord(false), 2000);
   };
@@ -63,7 +63,7 @@ export default function ContactSection() {
             <div className="relative">
               {copiedDiscord && (
                 <div className="absolute bottom-12 left-1/2 -translate-x-1/2 bg-[#0b0c24] text-white text-[10px] sm:text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-xl border border-white/10 shadow-2xl whitespace-nowrap z-50">
-                  roshjitha copied!
+                  roshitha copied!
                 </div>
               )}
               <a
